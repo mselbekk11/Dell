@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <style>
+
+        *:focus {
+        outline: none;
+        }
+    
+        .layer-one{
+            z-index: 10;
+          }
+    
+        .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 11;
+        }
+    
+        .layer-two{
+        z-index: 120!important;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+          }
+    
+    
+        .zmags-container{
+        max-width: 1110px!important;
+        margin:auto;
+        height:auto;
+        background:#fff !important;
+        /* overflow:auto; */
+        /* position: relative; */
+        margin-top: 80px;
+        margin-bottom: 80px;
+        }
+    
+      </style>
+    
+    
+    <div class="zmags-container"> 
+    
+        <!-- 1 - TOP BANNER -->
+        <div class="layer-one">
+        <div class="zmags-viewer-container" data-group="5eeb4828ad04236722ad21a9"></div>
+        </div>
+    
+        <!-- 2 - VIDEO -->
+        <div class="layer-one">
+        <div class="zmags-viewer-container" data-group="5eeb482efaf7ea4d148c4a10"></div>
+        </div>
+    
+        <!-- 3 - HOTSPOTS -->
+        <div class="layer-one">
+        <div class="zmags-viewer-container" data-group="5eeb4835faf7ea4d148c4a4c"></div>
+        </div>
+    
+        <!-- 4 - GIFS -->
+        <div class="layer-one">
+        <div class="zmags-viewer-container" data-group="5eeb483bad04236722ad2230"></div>
+        </div>
+    
+        <!-- 5 - PARALLAX ONE -->
+        <div class="sticky" id="anchorpoint">
+        <div class="zmags-viewer-container" data-group="5eeb4841faf7ea4d148c4a80"></div>
+        </div>
+    
+        <!-- 6 - PARALLAX TWO -->
+        <div class="sticky">
+        <div class="zmags-viewer-container" data-group="5eeb4845ad04236722ad226f"></div>
+        </div>
+    
+        <!-- 7 - PARALLAX THREE -->
+        <div class="sticky">
+        <div class="zmags-viewer-container" data-group="5eeb484afaf7ea4d148c4abe"></div>
+        </div>
+    
+        <!-- 8 - IMAGE -->
+        <div class="layer-two">
+          <div class="zmags-viewer-container" data-group="5eeb4850ad04236722ad22b7"></div>
+          <!--VIDEO SCROLL-->
+          <div class="zmags-viewer-container" data-group="5eeb6f1cfaf7ea4d148c8a2b"></div>
+          <!-- 9 - VIDEO -->
+          <div class="zmags-viewer-container" data-group="5eeb485bfaf7ea4d148c4b00"></div>
+          <!-- 10 - SELECTOR -->
+          <div class="zmags-viewer-container" data-group="5eeb4861faf7ea4d148c4b44"></div>
+        </div>
+    </div>
+    
+      <script defer type="text/javascript"  src="//c.zmags.com/static/manifest.js"></script><script defer type="text/javascript"  src="//c.zmags.com/static/vendor.js"></script><script defer type="text/javascript"  src="//c.zmags.com/static/client.js"></script>
+
+    
+</body>
+</html>
